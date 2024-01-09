@@ -1,0 +1,35 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.footerCentralAxity {
+  overflow: hidden;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  background-color: #3c1053;
+  padding: 1em;
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  .contentFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    color: #fff;
+  }
+  .redirectFacebook {
+    content: url("assets/img/icons/facebook.svg") !important;
+  }
+  .redirectInstagram {
+    content: url("assets/img/icons/instagram.svg") !important;
+  }
+  .redirectTwitter {
+    content: url("assets/img/icons/twitter.png") !important;
+    width: 23px;
+    height: 23px;
+  }
+  .redirectLinkedin {
+    content: url("assets/img/icons/linkedin.svg") !important;
+  }
+}

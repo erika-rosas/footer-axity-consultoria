@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "footer-central-axity-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/footerCentralAxity/FooterCentralAxityWebPart.js",
+          "manifest": "./src/webparts/footerCentralAxity/FooterCentralAxityWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FooterCentralAxityWebPartStrings": "lib/webparts/footerCentralAxity/loc/{locale}.js"
+  }
+}
